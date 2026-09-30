@@ -1,7 +1,11 @@
 {
-  "name": "node-starter",
-  "private": true,
+  "name": "esercizi-programmazione-base",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "node scripts/check.js",
+    "check:str": "node scripts/check.js stringhe",
+    "check:num": "node scripts/check.js numeri",
+    "check:bool": "node scripts/check.js booleani",
+    "check:arr": "node scripts/check.js array"
   }
 }
