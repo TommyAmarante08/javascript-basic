@@ -18,9 +18,9 @@ function es24(n) {
   const positivo = n > 0;
   const pari = n % 2 === 0;
   const assoluto = Math.abs(n);
-  const radice = n >= 0 ? Math.sqrt(n) : NaN;
+  const radice = positivo ? Math.sqrt(n) : NaN;
   return { positivo, pari, assoluto, radice };
 }
 
-// --- NON MODIFICARE SOTTO ---
-export { es24 };
+// --- NON MODIFICARE SOTTO ---  
+  export { es24 };
