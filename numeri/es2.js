@@ -24,14 +24,7 @@ return isNaN(0/0)
 function es2_3(valore) {
   // 3. Riceve un valore e restituisce true se è NaN, false altrimenti
   // TODO: scrivi qui la tua soluzione
-  return (isNaN(valore));
-  if (isNaN(valore)) {
-  return true;
-}
-  
-  else{
-    return  false;
-  }
+  return isNaN(valore);
 }
 
 // --- NON MODIFICARE SOTTO ---

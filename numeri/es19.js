@@ -10,6 +10,7 @@
 
 function es19(n) {
   // TODO: scrivi qui la tua soluzione
+  return n % 2 === 0;
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -13,7 +13,9 @@
 
 function es16() {
   const voti = [7, 8, 6, 9, 8];
-  // TODO: scrivi qui la tua soluzione
+  const somma = voti.reduce((totale, voto) => totale + voto, 0);
+  const media = somma / voti.length;
+  return { somma, media, mediaArrotondata: Math.round(media) };
 }
 
 // --- NON MODIFICARE SOTTO ---

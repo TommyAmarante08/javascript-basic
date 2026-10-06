@@ -9,6 +9,7 @@
 
 function es20(a, b, c) {
   // TODO: scrivi qui la tua soluzione
+  return Math.min(a, b, c);
 }
 
 // --- NON MODIFICARE SOTTO ---

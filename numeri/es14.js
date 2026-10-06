@@ -15,6 +15,8 @@
 function es14_1(n) {
   // 1. Incrementa n di 1 usando += e restituiscilo
   // TODO: scrivi qui la tua soluzione
+  n += 1;
+  return n;
 }
 
 function es14_2(n) {
@@ -22,11 +24,16 @@ function es14_2(n) {
   // Poi restituisci n (dopo l'incremento)
   // Suggerimento: salva il valore originale prima di incrementare
   // TODO: scrivi qui la tua soluzione
+  const originale = n;
+  n++;
+  return originale;
 }
 
 function es14_3(n) {
   // 3. Sottrai 3 da n usando -= e restituiscilo
   // TODO: scrivi qui la tua soluzione
+  n -= 3;
+  return n;
 }
 
 // --- NON MODIFICARE SOTTO ---

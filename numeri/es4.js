@@ -12,19 +12,19 @@
 function es4_1(n) {
   // 1. Arrotonda n all'intero più vicino
   // TODO: scrivi qui la tua soluzione
-return Math.round(4,3)
+  return Math.round(n);
 }
 
 function es4_2() {
   // 2. Arrotonda 4.5 e restituisci il risultato
   // TODO: scrivi qui la tua soluzione
-return Math.round(4.5)
+  return Math.round(4.5);
 }
 
 function es4_3() {
   // 3. Arrotonda -2.5 e restituisci il risultato
   // TODO: scrivi qui la tua soluzione
-return Math.round(-2,5)
+  return Math.round(-2.5);
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -11,6 +11,7 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es23(a, b, operatore) {
+  
   // TODO: scrivi qui la tua soluzione
 }
 
