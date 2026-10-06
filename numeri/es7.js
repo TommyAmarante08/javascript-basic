@@ -13,16 +13,19 @@
 function es7_1(a, b) {
   // 1. Restituisci il valore minimo tra a e b
   // TODO: scrivi qui la tua soluzione
+  return Math.min(a, b)
 }
 
 function es7_2(a, b, c) {
   // 2. Restituisci il valore massimo tra a, b e c
   // TODO: scrivi qui la tua soluzione
+  return Math.max(a, b, c)
 }
 
 function es7_3(a, b, c, d) {
   // 3. Restituisci il valore minimo tra a, b, c e d
   // TODO: scrivi qui la tua soluzione
+return Math.min(a,b,c,d)
 }
 
 // --- NON MODIFICARE SOTTO ---

@@ -13,16 +13,19 @@
 function es8_1(a, b) {
   // 1. Restituisci a elevato alla potenza b (usa Math.pow)
   // TODO: scrivi qui la tua soluzione
+return Math.pow(a,b)
 }
 
 function es8_2(a, b) {
   // 2. Restituisci a elevato alla potenza b (usa **)
   // TODO: scrivi qui la tua soluzione
+return(a ** b)
 }
 
 function es8_3(a) {
   // 3. Restituisci il quadrato di a
   // TODO: scrivi qui la tua soluzione
+return(a*a)
 }
 
 // --- NON MODIFICARE SOTTO ---

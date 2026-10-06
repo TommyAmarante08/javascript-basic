@@ -11,16 +11,19 @@
 function es9_1(n) {
   // 1. Restituisci la radice quadrata di n
   // TODO: scrivi qui la tua soluzione
+return Math.sqrt(n)
 }
 
 function es9_2() {
   // 2. Calcola la radice quadrata di 144
   // TODO: scrivi qui la tua soluzione
+return Math.sqrt(144)
 }
 
 function es9_3() {
   // 3. Calcola la radice quadrata di -1 e restituisci il risultato
   // TODO: scrivi qui la tua soluzione
+return Math.sqrt(-1)
 }
 
 // --- NON MODIFICARE SOTTO ---

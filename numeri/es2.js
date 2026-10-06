@@ -12,16 +12,26 @@
 function es2_1() {
   // 1. Restituisci NaN (usa un'operazione matematica non valida)
   // TODO: scrivi qui la tua soluzione
+return 0/0
 }
 
 function es2_2() {
   // 2. Verifica se il valore 0 / 0 è NaN (usa isNaN) e restituisci il risultato
   // TODO: scrivi qui la tua soluzione
+return isNaN(0/0)
 }
 
 function es2_3(valore) {
   // 3. Riceve un valore e restituisce true se è NaN, false altrimenti
   // TODO: scrivi qui la tua soluzione
+  return (isNaN(valore));
+  if (isNaN(valore)) {
+  return true;
+}
+  
+  else{
+    return  false;
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

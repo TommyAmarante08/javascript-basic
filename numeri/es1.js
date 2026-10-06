@@ -16,16 +16,19 @@
 function es1_1(a, b) {
   // 1. Restituisci la somma di a e b
   // TODO: scrivi qui la tua soluzione
+return a + b
 }
 
 function es1_2(a, b) {
   // 2. Restituisci il prodotto di a per b
   // TODO: scrivi qui la tua soluzione
+return a * b
 }
 
 function es1_3(a, b) {
   // 3. Restituisci il resto della divisione tra a e b
   // TODO: scrivi qui la tua soluzione
+return (a % b)
 }
 
 // --- NON MODIFICARE SOTTO ---
